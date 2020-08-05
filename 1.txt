@@ -1,0 +1,102 @@
+https://zooxhamster.com/videos/stockings-clad-young-zoophile-fucks-a-horny-dog
+https://zooxhamster.com/videos/amazing-asian-slut-fucked-by-doggy-in-the-missionary-pose
+https://zooxhamster.com/videos/blonde-on-cam-insane-home-scenes-of-rough-dog-zoophilia
+
+No Mans Sky:
+
+LOGIN: nomansky_cheapgamespl_acc2
+PASSWORD: Nfiefj308ufFHEUHsky
+
+Fallout 4:
+
+fallout4alldlc_konto325
+Kot585825FHUFHfefuhuf3t3as
+
+They are billions:
+
+SantaSrust
+Klepacz123
+
+Kingdom Code Deliverance:
+
+2acc_kingdomcomealldlc_profig
+KjI39jgIGJGWFIAg0
+
+Dark Souls 3:
+
+darksouls3cgpl
+SOULS3ALLDLC387528HG
+
+Dragon Ball Xenoverse 1
+
+db_cheapgames_pl
+22FWFWEFEWFDCAssdfs
+
+Dragon Ball Xenoverse 2
+
+DB_CHEAPGAMESPL_ALLDLC
+83YU384HGUBREY8UHFfyeghHFEGHY
+
+
+1. ArichBot.
+
+ArchiBot is our bot (duh) which helps integrate the group together. It handles all things data, such as members, giveaways and points.
+It refreshes at a 15 minutes interval, pulling data from SG. Most of the group is automated via ArchiBot,
+allowing our members to focus on the gifting/community part of the group.
+More details can be found here if you're interested to read it later: https://touhou.justarchi.net/about/archibot
+
+2. The AFK rule
+
+AFK is the rule in place to ensure members remain active. Activity is defined by one of two factors:
+Spending a combined total of 20 Touhou points (our virtual "currency",
+which I'll refer to as "2hu points" for short from this point onwards) in the last 2 months,
+OR creating giveaways with a combined total "base value" (I'll explain base value later) on 20 2hu points in the last 2 months.
+Do note that these are independently tracked, and do not stack against each other -
+Meaning you must fulfill one or the other requirements, but can't combine 10 points spent and 10p worth of giveaways created -
+One of the two values must be 20 to avoid going AFK
+Failing to fulfill your activity requirements will put you in "AFK",
+meaning you are now at risk of being kicked from the group unless you address the issue ASAP.
+First infraction is fine, we'll even have a staff member contact you to make sure you understand the rules, notify you of your AFK infraction, etc.
+But further infractions may result in a kick.
+Since keeping tabs on your AFK status is a pain, the bot can help with that.
+The following command, as with any other command, can be issued in any chat where the bot is present, such is privately directly to the bot, or through our group chat (preferably the bot channel):
+!2huafk
+When you fulfill the requirement, the AFK timer will be reset to 2 months from now.
+
+3. The anti-leechers module.
+
+The anti-leechers module is a feature in ArchiBot which prevents members from "leeching",
+in other words, abusing the group by winning giveaways they shouldn't.
+If you've entered a giveaway you weren't supposed to, the bot will notify you and ask you to leave the giveaway.
+Failing to do so when the giveaway has 1 hour or less left will result in an immediate automatic kick from the group by the bot.
+For this reason, you'll want to avoid entering giveaways ending in 1 hour or less if you aren't sure you are able to afford it,
+since you'll be kicked without warning.
+This module allows giveaway creators to re-roll if the winner is a "leecher"
+(since you can request a re-roll if a winner of a giveaway is a former group member)
+Example - You have 30p, you enter two giveaways requiring 20p each, you win one and mark as received,
+bringing your points to 10, which means you're 10 points short to be eligible for the other giveaways, yet you're still entered.
+This can result in an "accidental" automatic kick because you didn't realize you'd run out of points retroactively.
+
+Now, we'll cover the numbers and math part. Yay!
+:bite::supergun:
+So, values, points, etc:
+Touhou Points is our virtual "currency". It is earned by successfully completing group giveaways, during which the winner "pays" you the value of the giveaway. In the same way, 2hu points are spent by winning giveaways, and "paying" the giveaway creator.
+A 2hu point is the equivalent of 1 point on SG, times the bundle multiplier, plus the community multiplier.
+The bundle multiplier is equal to 1x if a game is bundled, and 2x is not. Bundled games are defined by this list maintain by the SG staff: https://www.steamgifts.com/bundle-games
+Then, a +0.00 to +1.00 is added to the multiplier based on the number of group members who have the game wishlisted (0% to 100%)
+Example:
+A giveaway for a non-bundled game costing 10p on SG will be 20 2hu points in the group, plus the community multiplier.
+[SG value of the giveaway] * (bundle multiplier + community multiplier)
+Makes sense?
+
+Great!
+So, how this works is that the value you get at the end (with the multipliers etc) is you "base value"
+As yuou remember I've mentioned it earlier about the AFK rule, this is the value that's important if you want to fulfill the AFK requirements through gifting.
+What this means is that a 20p mundled game will fulfill the AFK requirements, but so will a 10p non-bundled game, as both are worth 20 2hu points.
+bundled*
+20 2hu points base value*
+Yep
+It's pretty easy to remain active, earning points is a different matter though, which brings us to the next part about values...
+Now, after this value, you also get "custom value" applied to this. This modifier is optional, and set by the giveaway creator by adding this to the giveaway description:
+TouhouValue: X
+Where X is an integer from 0 to the base value, or previous custom value of the giveaway.

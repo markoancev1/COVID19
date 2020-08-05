@@ -1,0 +1,121 @@
+﻿@model COVID19.Models.CaseViewModel
+@{
+    ViewData["Title"] = "Add";
+}
+
+    <div class="container">
+        <h3 class="crud-title">ADD A CASE</h3>
+        <hr />
+
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <form asp-action="Add" name="addcase">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="NameSurname" class="control-label">NameSurname</label>
+                            <input asp-for="NameSurname" class="form-control" placeholder="Enter name and surname" />
+                            <span asp-validation-for="NameSurname" class="text-danger"></span>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Age" class="control-label">Age</label>
+                                    <input asp-for="Age" class="form-control" placeholder="Enter Age" />
+                                    <span asp-validation-for="Age" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <input asp-for="Sex" class="form-control" placeholder="Enter sex" />
+                                    <input type="radio" id="male" name="gender" value="male">
+                                    <label for="male">Male</label><br>
+                                    <input type="radio" id="female" name="gender" value="female">
+                                    <label for="female">Female</label><br>
+                                    <span asp-validation-for="Sex" class="text-danger"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-12">
+                                <div class="form-group">
+                                    <label asp-for="City" class="control-label">City</label>
+                                    <input asp-for="City" class="form-control" placeholder="Enter city" />
+                                    <span asp-validation-for="City" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="FirstSymptoms" class="control-label">First Syptoms</label>
+                                    <input asp-for="FirstSymptoms" class="form-control" placeholder="Enter first syptoms" />
+                                    <span asp-validation-for="FirstSymptoms" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="FirstSyptomsDate" class="control-label">First Suptoms Date</label>
+                                    /<input asp-for="FirstSyptomsDate" class="form-control" placeholder="Enter First Syptoms Date" />
+                                    <span asp-validation-for="FirstSyptomsDate" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="FirstTestDate" class="control-label">First Test</label>
+                                    <input asp-for="FirstTestDate" class="form-control" placeholder="Enter date of first test" />
+                                    <span asp-validation-for="FirstTestDate" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="ResultFirstTest" class="control-label">Result</label>
+                                    /<input asp-for="ResultFirstTest" class="form-control" placeholder="Enter Result" />
+                                    <span asp-validation-for="ResultFirstTest" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Recover" class="control-label">Date of recover</label>
+                                    <input asp-for="Recover" class="form-control" placeholder="Enter date of recover" />
+                                    <span asp-validation-for="Recover" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Death" class="control-label">Date of death</label>
+                                    /<input asp-for="Death" class="form-control" placeholder="Enter date of death" />
+                                    <span asp-validation-for="Death" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-12 col-md-12">
+                                <div class="form-group">
+                                    <label asp-for="Condition" class="control-label">Condition</label>
+                                    <input asp-for="Condition" class="form-control" placeholder="Enter condition" />
+                                    <span asp-validation-for="Condition" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Add" class="btn btn-block btn-primary" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+
+
+
+
+
+
